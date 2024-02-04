@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "hello extention",
+    "version": "1.0",
+    "description": "hello world extention",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "action":{
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    }
+}
