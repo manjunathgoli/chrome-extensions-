@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "budget manager",
+    "version": "1.0",
+    "description": "This is extention of budget managing",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+
+    "background": {
+        "service_worker": "eventPage.js"
+     },
+
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenus"
+    ]
+}
