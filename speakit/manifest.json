@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "speakit",
+    "version": "1.0",
+    "description": "search for anything",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "background": {
+        "service_worker": "eventPage.js"
+        
+     },
+     "permissions": [
+        "tts",
+        "contextMenus"
+     ]
+}
